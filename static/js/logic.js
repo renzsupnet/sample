@@ -23,7 +23,7 @@ function createMap(bikeStations) {
     layers: [streetmap, bikeStations]
   });
 
-  // Create a layer control, and pass it  baseMaps and overlayMaps. Add the layer control to the map.
+  // Create a layer control, and pass it baseMaps and overlayMaps. Add the layer control to the map.
   L.control.layers(baseMaps, overlayMaps, {
     collapsed: false
   }).addTo(map);
